@@ -10,7 +10,7 @@ const Hello = lazy(() =>
 );
 // const App = lazy(() => import(/* webpackChunkName: "App" */ "components/App"));
 const NoMatch = lazy(() =>
-  import(/* webpackChunkName: "NoMatch" */ "components/NoMatch")
+    import(/* webpackChunkName: "NoMatch" */ "components/NoMatch")
 );
 
 import App from "components/App"
