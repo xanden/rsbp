@@ -8,7 +8,6 @@ import Style from "components/App.m.scss";
 
 const App = () => (
   <div className={Style.App}>
-    12345345
     <AddTodo />
     <VisibleTodoList />
     <Footer />

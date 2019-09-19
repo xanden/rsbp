@@ -1,11 +1,13 @@
 {
   "parser": "babel-eslint",
   "extends": ["airbnb", "prettier", "prettier/react"],
-  "plugins": ["react", "jsx-a11y", "jest"],
+  "plugins": ["react", "jsx-a11y", "jest", "react-hooks"],
   "rules": {
     "react/state-in-constructor": "off",
     "react/static-property-placement": [1, "static public field"],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn" // <--- THIS IS THE NEW RULE
   },
   "env": {
     "browser": true,
