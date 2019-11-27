@@ -7,7 +7,7 @@
     "react/static-property-placement": [1, "static public field"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn" // <--- THIS IS THE NEW RULE
+    "react-hooks/exhaustive-deps": "warn"
   },
   "env": {
     "browser": true,
