@@ -68,7 +68,7 @@
   "dependencies": {
     "connected-react-router": "^6.6.1",
     "history": "^4.10.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "normalizr": "^3.4.1",
     "prop-types": "^15.6.2",
     "react": "^16.12.0",
